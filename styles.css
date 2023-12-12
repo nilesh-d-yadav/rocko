@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+h1{
+    background-color: #081b31;
+    color: #fff;
+    height: 4rem;
+    line-height: 5rem;
+}
+
+.choice{
+    /* border: 2px dotted black; */
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+.choice:hover{
+    background-color: #081b31;
+    /* opacity: 0.5; To give a feeling of being clickable */
+    cursor: pointer;  /*cursor changes to hand like clickable to show clickablity*/
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;   /*To prevent image distortion*/
+    border-radius: 500%;
+}
+
+.choices{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* margin-top: 4rem; */
+}
+
+
+.score-board{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    gap: 3rem;
+
+}
+
+#user-score, #computer-score{
+    font-size: 4rem;
+}
+
+#msg{
+    display: inline-block;
+    margin-top: 2rem;
+    font-size: 3rem;
+    background-color: #081b31;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.Restart{
+    margin-top: 1rem;
+    background-color: rgb(19, 101, 65);
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.2rem;
+    color: #fff;
+    border-radius: 5%;
+    padding: 0.3rem;
+
+    
+}
+.Restart:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
